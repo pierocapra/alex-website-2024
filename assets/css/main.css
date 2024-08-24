@@ -129,8 +129,16 @@ input, select, textarea {
 		font-size: 2.85em;
 	}
 
+	h2 {
+		padding: 1em 0;
+	}
+
 	h3 {
 		font-size: 1.25em;
+	}
+
+	h3 {
+		padding: 0.7em 0;
 	}
 
 	h4 {
@@ -1771,6 +1779,9 @@ input, select, textarea {
 			line-height: 1.5em;
 			text-align: inherit;
 		}
+	.about-paragraph {
+		margin: 2em 0 2em 0;
+	}
 
 	footer {
 		margin: 2.5em 0 0 0;
@@ -1798,7 +1809,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			/* margin: 0 0 4em 0; */
 		}
 
 		.image.left {
@@ -2164,7 +2175,7 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		/* margin: 0 0 2em 0; */
 		padding: 6em 0 6em 0;
 	}
 
@@ -2203,6 +2214,7 @@ input, select, textarea {
 
 		#header header {
 			display: inline-block;
+			margin: 0 0 1em 0;
 		}
 
 			#header header > p {
@@ -2509,7 +2521,7 @@ input, select, textarea {
 	.carousel {
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding: 0 0 2em 0;
 		margin-bottom: 0;
 	}
 
@@ -2594,7 +2606,7 @@ input, select, textarea {
 			width: 18em;
 			background: #fff;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			/* padding: 0 1em 3em 1em; */
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -2608,18 +2620,22 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.carousel article .image {
+			/* .carousel article .image {
 				position: relative;
 				left: -1em;
 				top: 0;
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
-			}
+			} */
 
 			.carousel article p {
 				text-align: center;
 			}
+
+			.carousel header {
+				text-align: center;
+			} 
 
 /* Wide */
 
@@ -2635,7 +2651,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 1.5em 0 1.5em 0;
+				padding: 0 0 1.5em 0;
 			}
 
 				.carousel .reel {
@@ -2787,9 +2803,9 @@ input, select, textarea {
 
 		/* Image */
 
-			.image.featured {
+			/* .image.featured {
 				margin: 0 0 2em 0;
-			}
+			} */
 
 			.image.left {
 				margin: 0 1em 1em 0;
@@ -3129,12 +3145,12 @@ input, select, textarea {
 
 				.carousel article {
 					width: 14em;
-					padding-bottom: 2em;
+					/* padding-bottom: 2em; */
 					margin: 0 0.5em 0 0;
 				}
 
-					.carousel article .image {
+					/* .carousel article .image {
 						margin-bottom: 2em;
-					}
+					} */
 
 	}
