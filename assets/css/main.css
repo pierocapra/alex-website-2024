@@ -2472,7 +2472,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		/* padding: 6em 0 6em 0; */
 		background: #2b252c;
 		color: #fff;
 	}
@@ -2480,6 +2480,13 @@ input, select, textarea {
 		#footer .icon.circled {
 			background: #fff;
 			color: #2b252c;
+			transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		}
+
+		#footer .icon.circled:hover {
+			background: #ef8376;
+			/* color: #fff; */
+			transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		}
 
 		#footer header {
