@@ -2657,7 +2657,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 0 0 1.5em 0;
+				padding: 0 0 2em 0;
 			}
 
 				.carousel .reel {
@@ -2741,13 +2741,13 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 2em 4em 2em;
+				padding: 0 2em 4em 2em;
 			}
 
 		/* Carousel */
 
 			.carousel {
-				padding: 1.25em 0 1.25em 0;
+				padding: 0 0 2em 0;
 			}
 
 				.carousel article {
@@ -2778,7 +2778,7 @@ input, select, textarea {
 
 			h2 {
 				font-size: 1.75em;
-				padding: 0.5em 0;
+				padding: 0.7em 0;
 			}
 
 			h3 {
@@ -3044,17 +3044,17 @@ input, select, textarea {
 				}
 
 			body.navPanel-visible #page-wrapper {
-				-moz-transform: translateY(25vh);
-				-webkit-transform: translateY(25vh);
-				-ms-transform: translateY(25vh);
-				transform: translateY(25vh);
+				-moz-transform: translateY(26vh);
+				-webkit-transform: translateY(26vh);
+				-ms-transform: translateY(26vh);
+				transform: translateY(26vh);
 			}
 
 			body.navPanel-visible #navButton {
-				-moz-transform: translateY(25vh);
-				-webkit-transform: translateY(25vh);
-				-ms-transform: translateY(25vh);
-				transform: translateY(25vh);
+				-moz-transform: translateY(26vh);
+				-webkit-transform: translateY(26vh);
+				-ms-transform: translateY(26vh);
+				transform: translateY(26vh);
 			}
 
 			body.navPanel-visible #navPanel {
@@ -3067,7 +3067,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				padding: 3em 1em 2em 1em;
 			}
 
 		/* Header */
@@ -3134,6 +3134,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			#main > footer {
+				margin: 1.5em 0 0 0;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -3141,10 +3145,22 @@ input, select, textarea {
 				padding-right: 1em;
 			}
 
+			#footer header {
+				padding-bottom: 1.5em;
+			}
+
+			.about-paragraph {
+				margin: 1.5em 0 1.5em 0;
+			}
+
+			/* header .icon.circled {
+				margin: 0 0 1em 0;
+			} */
+
 		/* Carousel */
 
 			.carousel {
-				padding: 0.5em 0 0.5em 0;
+				padding: 0em 0 1em 0;
 			}
 
 				.carousel .reel {
